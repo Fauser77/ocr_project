@@ -1,6 +1,6 @@
 # OCR Handwritten Sentence Recognition
 
-Este projeto tem como objetivo reconhecer frases escritas à mão a partir de imagens e retornar a precisão da previsão. O modelo foi treinado para identificar textos manuscritos e fornecer uma avaliação precisa da frase extraída da imagem.
+Este projeto tem como objetivo reconhecer frases escritas à mão a partir de imagens (utilizadas pelo IAM Dataset) e retornar a precisão da previsão. O modelo foi treinado para identificar textos manuscritos e fornecer uma avaliação precisa da frase extraída da imagem.
 
 ## Funcionalidades
 
