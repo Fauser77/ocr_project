@@ -16,3 +16,15 @@ Link para download do IAM dataset utilizado: https://fki.tic.heia-fr.ch/database
    ```bash
    git clone https://github.com/Fauser77/OCRSentece_Project.git
    cd OCRSentece_Project
+2. Treine o modelo (opcional):
+   ```bash
+   python train.py
+3. Valide a eficácia:
+   ```bash
+   python inference.py
+
+## Observações
+
+- Certifique-se de que o dataset esteja corretamente estruturado antes de executar o script de treinamento.
+- ⚠️ **Aviso:** O script `train.py` pode consumir muitos recursos da máquina. Recomenda-se utilizá-lo em um ambiente com GPU.
+- 🛠 Caso encontre problemas com o script `inference.py`, verifique se o diretório correto do modelo treinado está sendo passado. 
